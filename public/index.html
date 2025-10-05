@@ -117,50 +117,27 @@
         </section>
 
         <!-- Feed de notícias e Agenda -->
-        <section class="container my-4">
-            <div class="row g-4">
+<section class="container my-4">
+    <div class="row g-4">
 
-                <!-- Feed Notícias -->
-                <div class="col-lg-8 order-1 order-lg-1">
-                    <h2 class="mb-4 text-center text-lg-center">Últimas Notícias</h2>
-                    <div class="d-flex flex-column gap-3">
-                        <div class="card shadow-sm border-start border-4 border-warning p-3">
-                            <h5 class="card-title">Título da Notícia 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
-                            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
-                        </div>
-                        <div class="card shadow-sm border-start border-4 border-warning p-3">
-                            <h5 class="card-title">Título da Notícia 2</h5>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
-                            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Agenda -->
-                <div class="col-lg-4 order-2 order-lg-2">
-                    <h2 class="mb-4 text-center text-lg-center">Agenda de Atividades</h2>
-                    <div class="d-flex flex-column gap-3">
-                        <div class="card shadow-sm border-start border-4 border-primary p-3 text-center">
-                            <h5 class="card-title">Evento 1</h5>
-                            <p class="card-text">Data: 20/09/2025<br>Descrição breve do evento, local e horário.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Detalhes</a>
-                        </div>
-                        <div class="card shadow-sm border-start border-4 border-primary p-3 text-center">
-                            <h5 class="card-title">Evento 2</h5>
-                            <p class="card-text">Data: 25/09/2025<br>Descrição breve do evento, local e horário.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Detalhes</a>
-                        </div>
-                        <div class="card shadow-sm border-start border-4 border-primary p-3 text-center">
-                            <h5 class="card-title">Evento 3</h5>
-                            <p class="card-text">Data: 30/09/2025<br>Descrição breve do evento, local e horário.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Detalhes</a>
-                        </div>
-                    </div>
-                </div>
-
+        <!-- Feed Notícias -->
+        <div class="col-lg-8 order-1 order-lg-1">
+            <h2 class="mb-4 text-center text-lg-center">Últimas Notícias</h2>
+            <div id="feed-noticias" class="d-flex flex-column gap-3">
+                <!-- Os cards de notícias serão inseridos aqui pelo JavaScript -->
             </div>
-        </section>
+        </div>
+
+        <!-- Agenda -->
+        <div class="col-lg-4 order-2 order-lg-2">
+            <h2 class="mb-4 text-center text-lg-center">Agenda de Atividades</h2>
+            <div id="agenda-eventos" class="d-flex flex-column gap-3">
+                <!-- Os cards de eventos serão inseridos aqui pelo JavaScript -->
+            </div>
+        </div>
+
+    </div>
+</section>
 
     </main>
 
