@@ -25,11 +25,14 @@ Leia o enunciado completo no Canvas.
 ## Print da página de detalhes do item
 
 ![<<  Notícia 1 >>](Print_Detalhes1.png) 
+
 ![<<  Notícia 2 >>](Print_Detalhes2.png) 
+
 ![<<  Evento 1 >>](Print_Detalhes3.png) 
+
 ![<<  Evento 2 >>](Print_Detalhes4.png) 
+
 ![<<  Evento 3 >>](Print_Detalhes5.png) 
-![<<  Evento 4 >>](Print_HomePage.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
